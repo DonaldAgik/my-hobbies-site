@@ -1,0 +1,78 @@
+/* Google Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 2;
+    padding: 2;
+    background-color: #f0f0f0;
+}
+
+/* Color scheme */
+:root {
+    --main-bg-color: #333;
+    --main-text-color: white;
+    --accent-color: #007BFF;
+}
+
+/* Header and Footer */
+header, footer {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 2;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: var(--accent-color);
+}
+
+/* Main Content */
+main {
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main > section {
+    flex: 1;
+    padding: 10px;
+}
+
+figure {
+    flex-basis: 300%;
+    padding: 2px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Footer text */
+footer p {
+    font-size: 0.9em;
+}
